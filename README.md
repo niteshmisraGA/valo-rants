@@ -6,7 +6,7 @@
 
 ## Project Description
 
-My site will host information on every character (agent) from the game VALORANT. There will also be a sort of "forum" where users can comment on video highlights featuring agents from the game.
+My site will host information on every character (agent) from the game VALORANT. These agents will be split into four categories. Each category will navigate the user to a new page where each agent that corresponds with said category will be listed. Each agent will have a navigable page with information about that agent listed. There will also be a sort of "forum" where users can comment on video highlights featuring agents from the game.
 
 ## Wireframes
 
@@ -55,7 +55,8 @@ My site will host information on every character (agent) from the game VALORANT.
 
 #### PostMVP
 
-_Post MVP TBD_
+-Implement search feature that allows user to directly navigate to an agent.
+-Allow users ability to post and embed highlight videos.
 
 ## Project Schedule
 
@@ -73,16 +74,32 @@ _Post MVP TBD_
 
 | Component             | Priority | Estimated Time | Time Invested | Actual Time |
 | --------------------- | :------: | :------------: | :-----------: | :---------: |
-| Adding Form           |    H     |      3hrs      |       0       |      0      |
-| Building Airtable API |    H     |      3hrs      |       0       |      0      |
-| Total                 |    H     |      6hrs      |     5hrs      |    5hrs     |
+| Pseudocode            |    H     |      5hrs      |       0       |      0      |
+| Building Airtable API |    H     |      3hrs      |      .5       |      0      |
+| Category 1 Build      |    H     |      3hrs      |       0       |      0      |
+| Category 2 Build      |    H     |      3hrs      |       0       |      0      |
+| Category 3 Build      |    H     |      3hrs      |       0       |      0      |
+| Category 4 Build      |    H     |      3hrs      |       0       |      0      |
+| Agents Lists          |    H     |      4hrs      |       0       |      0      |
+| Navigation            |    H     |     1.5hrs     |       0       |      0      |
+| CSS Styling           |    H     |      5hrs      |       0       |      0      |
+| Post-MVP              |    H     |      3hrs      |       0       |      0      |
+| Total                 |    H     |    33.5hrs     |     .5hrs     |    0hrs     |
 
 ## SWOT Analysis
 
 ### Strengths:
 
+Although I feel my idea is complex, I have a clear vision of what I want to build.
+
 ### Weaknesses:
+
+Even after two weeks learning I am still struggling with React. I will be constantly referencing old assignments, labs, etc.
 
 ### Opportunities:
 
+I hope to really cement my understanding of React over this Project.
+
 ### Threats:
+
+I have GOT to learn to ask for help and also to understand when I definitely need it.
