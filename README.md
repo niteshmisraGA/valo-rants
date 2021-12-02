@@ -6,7 +6,7 @@
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and/or functionality.
+My site will host information every character (agent) from the game VALORANT.
 
 ## Wireframes
 
@@ -67,7 +67,7 @@ _Post MVP TBD_
 | Dec. 2   | Project Approval                                   | Incomplete |
 | Dec. 2-4 | Core Application Structure (HTML, CSS, etc.)       | Incomplete |
 | Dec. 4-5 | Pseudocode / actual code                           | Incomplete |
-| Dec. 5-6 | Initial Clickable Model                            | Incomplete |
+| Dec. 5-6 | Initial Clickable Model, Styling                   | Incomplete |
 | Dec. 7-8 | MVP                                                | Incomplete |
 | Dec. 9   | Presentations                                      | Incomplete |
 
