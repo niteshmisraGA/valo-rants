@@ -6,15 +6,15 @@
 
 ## Project Description
 
-My site will host information every character (agent) from the game VALORANT.
+My site will host information on every character (agent) from the game VALORANT. There will also be a sort of "forum" where users can comment on video highlights featuring agents from the game.
 
 ## Wireframes
 
-![imageAlt](./assets/project-2-wireframe.png)
+![wireframe](./assets/project-2-wireframe.png)
 
 ## Component Hierarchy
 
-Show your component hierarchy here! Use [this](https://cms-assets.tutsplus.com/uploads/users/1795/posts/30352/image/GettingStartedWithReduxTutorial-React-Component-Structure.png) as an example.
+![component-hierarchy](./assets/Project-2-comp-hier.png)
 
 ## API and Data Sample
 
@@ -46,8 +46,6 @@ Show your component hierarchy here! Use [this](https://cms-assets.tutsplus.com/u
 
 ### MVP/PostMVP
 
-The functionality will then be divided into two separate lists: MVP and PostMVP. Carefully decide what is placed into your MVP, as the client will expect this functionality to be implemented upon project completion.
-
 #### MVP
 
 - Build external API using Airtable
@@ -63,7 +61,7 @@ _Post MVP TBD_
 
 | Day      | Deliverable                                        | Status     |
 | -------- | -------------------------------------------------- | ---------- |
-| Dec. 1   | Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete |
+| Dec. 1   | Prompt / Wireframes / Priority Matrix / Timeframes | Complete   |
 | Dec. 2   | Project Approval                                   | Incomplete |
 | Dec. 2-4 | Core Application Structure (HTML, CSS, etc.)       | Incomplete |
 | Dec. 4-5 | Pseudocode / actual code                           | Incomplete |
@@ -73,11 +71,11 @@ _Post MVP TBD_
 
 ## Timeframes
 
-| Component        | Priority | Estimated Time | Time Invested | Actual Time |
-| ---------------- | :------: | :------------: | :-----------: | :---------: |
-| Adding Form      |    H     |      3hrs      |    3.5hrs     |   3.5hrs    |
-| Working with API |    H     |      3hrs      |    2.5hrs     |   2.5hrs    |
-| Total            |    H     |      6hrs      |     5hrs      |    5hrs     |
+| Component             | Priority | Estimated Time | Time Invested | Actual Time |
+| --------------------- | :------: | :------------: | :-----------: | :---------: |
+| Adding Form           |    H     |      3hrs      |       0       |      0      |
+| Building Airtable API |    H     |      3hrs      |       0       |      0      |
+| Total                 |    H     |      6hrs      |     5hrs      |    5hrs     |
 
 ## SWOT Analysis
 
