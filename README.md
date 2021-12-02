@@ -10,7 +10,13 @@ My site will host information on every character (agent) from the game VALORANT.
 
 ## Wireframes
 
-![wireframe](./assets/project-2-wireframe.png)
+### Desktop
+
+![wireframe](./assets/Project-2.png)
+
+### Mobile
+
+![mobileWireframe](./assets/Project-2-Mobile-Wireframe.png)
 
 ## Component Hierarchy
 
@@ -23,15 +29,25 @@ My site will host information on every character (agent) from the game VALORANT.
   "records": [
     {
       "id": "recXL7r2K0zJ6kFrN",
-      "fields": {},
+      "fields": {
+        "category": "duelist",
+        "agent": "phoenix",
+        "highlight-clip": "https://www.youtube.com/watch?v=VJ6857sJm-k&ab_channel=ValorantVision",
+        "description": "An explosive character who can aid in combat by blinding or blocking the vision of enemies.",
+        "agent-abilities": "-Blaze -Curveball -Hot Hands",
+        "agent-picture": "https://fastcdn.mobalytics.gg/assets/valorant/images/agents/icons/phoenix.png"
+      },
       "createdTime": "2021-12-02T06:07:39.000Z"
     },
     {
       "id": "reccH1N1n3oMp6oyy",
       "fields": {
-        "agent": "Jett",
+        "category": "duelist",
         "agent-abilities": "-Cloudburst\n-Tailwind\n-Updraft",
-        "agent-picture": "https://static.wikia.nocookie.net/valorant/images/7/79/Jett_artwork.png/revision/latest?cb=20200602020209"
+        "agent-picture": "https://static.wikia.nocookie.net/valorant/images/7/79/Jett_artwork.png/revision/latest?cb=20200602020209",
+        "agent": "jett",
+        "description": "A mobility based character tasked to aggressively take space from the enemy.",
+        "highlight-clip": "https://www.youtube.com/watch?v=E3bnCP5RQ44&ab_channel=ValorantVision"
       },
       "createdTime": "2021-12-02T06:07:39.000Z"
     },
@@ -52,11 +68,14 @@ My site will host information on every character (agent) from the game VALORANT.
 - Render data on page using React components
 - Allow user to cycle thru agents info and highlight clips
 - Implement heavy styling with CSS flexbox OR Grid
+- Allow users to edit agent info page
+- Add form to allow users to add an agent
 
 #### PostMVP
 
--Implement search feature that allows user to directly navigate to an agent.
--Allow users ability to post and embed highlight videos.
+- Implement search feature that allows user to directly navigate to an agent.
+- Allow users ability to post and embed highlight videos.
+- Add a comment section to highlights forum.
 
 ## Project Schedule
 
