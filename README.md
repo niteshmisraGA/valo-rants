@@ -20,7 +20,7 @@ My site will host information on every character (agent) from the game VALORANT.
 
 ## Component Hierarchy
 
-![component-hierarchy](./assets/Project-2-comp.-hier.-updated.png)
+![component-hierarchy](./assets/Project-2-Comp-Hier-updated.png)
 
 ## API and Data Sample
 
