@@ -31,10 +31,17 @@
 .details-picture {
   max-height: 450px;
 }
-
 .agent-details.page {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "pic deets";
+}
+.pic {
+  grid-area: pic;
+}
+.deets {
+  grid-area: deets;
 }
 
 .header {

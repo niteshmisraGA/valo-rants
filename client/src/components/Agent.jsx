@@ -19,8 +19,9 @@ if(!agent) return <h1>Loading...</h1>
 
   return (
     <div className="agent-details-page">
-      <img className="details-picture" src={agent.fields.agentPicture} alt="agent" />
+      <img className="details-picture pic" src={agent.fields.agentPicture} alt="agent" />
       <h1 className="fuck">{agent.fields.description}</h1>
+      <h1 className="deets">PAIN</h1>
     </div>
   );
 }
