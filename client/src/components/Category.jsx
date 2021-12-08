@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom'
+import { useParams, Link } from 'react-router-dom'
 
 
 export default function Category({category}) {
@@ -19,10 +19,12 @@ export default function Category({category}) {
     <div className="agent-container">
       {
         duelists.map((duel) => (
-          <div className="agent">
-            <img src={duel.fields.agentPicture} alt="agent"/>
-            <h1>{duel.fields.agent}</h1>
-          </div>
+          <Link to={`/character/${duel.id}`}>
+            <div className="agent">
+              <img className="thumbnail" src={duel.fields.agentThumbnail} alt="agent"/>
+              <h1>{duel.fields.agent}</h1>
+            </div>
+            </Link>
         ))
         }
     </div>

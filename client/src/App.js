@@ -29,9 +29,12 @@ function App() {
 
 
   return (
-    <div className="App">
-      <h1>VALO-Rants</h1>
-      <Nav />
+    <div className="App page-layout">
+      <header className="header">
+        <h1>VALO-Rants</h1>
+        <Nav />
+      </header>
+      
       <Routes>
         <Route
           path='/'
@@ -45,6 +48,10 @@ function App() {
         <Route
           path='/categories/duelist/:agent'
           element={<Agent agents={agents} />}
+        />
+        <Route
+          path='/character/:id'
+          element={<Agent />}
         />
         {/* <Route
           path="/categories/:sentinel"

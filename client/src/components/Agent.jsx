@@ -1,23 +1,26 @@
-import React from 'react'
-import { Link, useParams } from 'react-router-dom'
+import { useState, useEffect } from "react";
+import { Link, useParams } from "react-router-dom";
+import { getAgent } from "../services";
 
+export default function Agent() {
+  const { id } = useParams();
 
+  const [agent, setAgent] = useState(null)
 
-export default function Agent({agents}) {
+  useEffect(() => {
+    const grabAgent = async () => {
+      const response = await getAgent(id);
+      setAgent(response)
+    }
+    grabAgent()
+  }, [id])
 
-  const {agent} = useParams()
-
-  const agentsArr = agents.filter(record => {
-    return agent === record.fields.agent
-  })
+if(!agent) return <h1>Loading...</h1>
 
   return (
     <div>
-      {agentsArr.map(agent => (
-
-<Link to={`/categories/duelist/${agent}`}><img src= {agents.fields.agentPicture} alt="agent"/></Link>
-      ))}
-      <h1>Hello PAIN</h1>
+          <img src={agent.fields.agentPicture} alt="agent" />
+          <h1 className="fuck">Hello PAIN</h1>
     </div>
-  )
+  );
 }
