@@ -5,6 +5,7 @@ import { Link, Routes, Route } from 'react-router-dom'
 import Category from './components/Category'
 import Home from './components/Home'
 import Nav from './components/Nav'
+import Agent from './components/Agent';
 // import Categorysen from './components/Categorysen';
 
 
@@ -12,12 +13,14 @@ import Nav from './components/Nav'
 function App() {
 
   const [category, setCategory] = useState([])
+  const [agents, setAgents] = useState([])
   // const [toggle, setToggle] = useState(false)
   
   useEffect(() => {
     const grabAgents = async () => {
       const response = await getAllAgents();
       setCategory(response)
+      setAgents(response)
   
     }
     grabAgents()
@@ -37,7 +40,11 @@ function App() {
         />
         <Route
           path="/categories/:duelist"
-          element={<Category category={category} />}
+          element={<Category category={category} agents={agents}/>}
+        />
+        <Route
+          path='/categories/duelist/:agent'
+          element={<Agent agents={agents} />}
         />
         {/* <Route
           path="/categories/:sentinel"
