@@ -18,9 +18,9 @@ export default function Agent() {
 if(!agent) return <h1>Loading...</h1>
 
   return (
-    <div>
-          <img src={agent.fields.agentPicture} alt="agent" />
-          <h1 className="fuck">Hello PAIN</h1>
+    <div className="agent-details-page">
+      <img className="details-picture" src={agent.fields.agentPicture} alt="agent" />
+      <h1 className="fuck">{agent.fields.description}</h1>
     </div>
   );
 }

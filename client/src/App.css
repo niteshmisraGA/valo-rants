@@ -12,8 +12,8 @@
 }
 
 .thumbnail {
-  max-width: 50px;
-  max-height: 50px;
+  max-width: 150px;
+  max-height: px;
 }
 
 .page-layout {
@@ -26,6 +26,15 @@
     "header header"
     "main main"
     "footer footer";
+}
+
+.details-picture {
+  max-height: 450px;
+}
+
+.agent-details.page {
+  display: flex;
+  justify-content: space-between;
 }
 
 .header {
