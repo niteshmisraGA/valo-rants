@@ -1,10 +1,7 @@
 import axios from 'axios'
 
 const BASE = process.env.REACT_APP_AIRTABLE_BASE
-
-
 const KEY = process.env.REACT_APP_AIRTABLE_KEY
-
 
 export const BASE_URL = `https://api.airtable.com/v0/${BASE}/agents`
 export const config = {
@@ -27,3 +24,7 @@ export const getAgent = async (id) => {
   return res
 }
 
+export const postAgent = async (body) => {
+  const response = await axios.post(BASE_URL, { fields: body }, config)
+  return response.data
+}

@@ -31,7 +31,7 @@
 .details-picture {
   max-height: 450px;
 }
-.agent-details.page {
+.agent-details-page {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
@@ -140,10 +140,10 @@
   }
 }
 
-/* .test {
+.test {
   display: grid;
 
   width: 50px;
   height: 50px;
   background-color: hotpink;
-} */
+}

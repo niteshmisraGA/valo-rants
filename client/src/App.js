@@ -6,6 +6,7 @@ import Category from './components/Category'
 import Home from './components/Home'
 import Nav from './components/Nav'
 import Agent from './components/Agent';
+import Form from './components/Form';
 // import Categorysen from './components/Categorysen';
 
 
@@ -14,7 +15,7 @@ function App() {
 
   const [category, setCategory] = useState([])
   const [agents, setAgents] = useState([])
-  // const [toggle, setToggle] = useState(false)
+  const [toggle, setToggle] = useState(false)
   
   useEffect(() => {
     const grabAgents = async () => {
@@ -24,7 +25,7 @@ function App() {
   
     }
     grabAgents()
-  }, [])
+  }, [toggle])
 
 
 
@@ -52,6 +53,10 @@ function App() {
         <Route
           path='/character/:id'
           element={<Agent />}
+        />
+        <Route
+          path='/new'
+          element={<Form setToggle={setToggle} />}
         />
         {/* <Route
           path="/categories/:sentinel"
