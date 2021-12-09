@@ -142,7 +142,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-  body {
+  .App {
     background-color: lightblue;
   }
 }

@@ -31,6 +31,7 @@ export default function Agent() {
       <div className="agent-details-page">
         <h1>{agent.fields.agent}</h1>
         <h1>{agent.fields.description}</h1>
+        <img className="details-picture pic" src={agent.fields.agentPicture} alt="agent" />
       </div>
   )
 
