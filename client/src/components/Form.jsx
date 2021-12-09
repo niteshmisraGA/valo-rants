@@ -10,6 +10,7 @@ export default function Form(props) {
   // const [agentAbilities, setAgentAbilities] = useState('')
   const [description, setDescription] = useState('')
   const [agentPicture, setAgentPicture] = useState()
+  // const [agentThumbnail, setAgentThumbnail] = useState()
   const navigate = useNavigate()
 
   const handleSubmit = async (e) => {

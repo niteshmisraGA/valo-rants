@@ -13,7 +13,6 @@ export default function Category({category}) {
   // if (!record) {
   //   return (<h3>Loading...</h3>)
   // }
-
   
   return (
     <div className="agent-container">

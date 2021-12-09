@@ -81,7 +81,7 @@
   /* max-width: 75px;
   max-height: 65px; */
   border-radius: 35%;
-  background: #73ad21;
+  background: #e0e3dc;
   padding: 20px;
   width: 275px;
   height: 155px;
@@ -120,12 +120,12 @@
   border: 10px solid whitesmoke;
   background-color: #16161a;
   border-radius: 5%;
+  min-height: 100px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav {
+  text-decoration: none;
+  color: whitesmoke;
 }
 
 .App-header {
@@ -146,7 +146,7 @@
 .thumbName {
   font-size: 15;
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 @media only screen and (max-width: 600px) {
