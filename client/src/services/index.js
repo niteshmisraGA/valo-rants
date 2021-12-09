@@ -24,6 +24,13 @@ export const getAgent = async (id) => {
   return res
 }
 
+export const getAbilities = async (id) => {
+  const response = await axios.get(`${BASE_URL}/${id}`, config)
+  console.log(response.data)
+  const res = response.data.fields.agentAbilities
+  return res
+}
+
 export const postAgent = async (body) => {
   const response = await axios.post(BASE_URL, { fields: body }, config)
   return response.data

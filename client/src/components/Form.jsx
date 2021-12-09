@@ -2,13 +2,14 @@ import React from 'react'
 import {useState, useEffect} from 'react'
 import { postAgent } from '../services'
 import { useNavigate } from 'react-router-dom'
-export default function Form() {
+
+export default function Form(props) {
   
   const [category, setCategory] = useState('')
   const [agent, setAgent] = useState('')
   // const [agentAbilities, setAgentAbilities] = useState('')
   const [description, setDescription] = useState('')
-  const [agentPicture, setAgentPicture] = useState('')
+  const [agentPicture, setAgentPicture] = useState()
   const navigate = useNavigate()
 
   const handleSubmit = async (e) => {
@@ -20,7 +21,7 @@ export default function Form() {
       agentPicture,
     }
     const response = await postAgent(newAgent)
-    // props.setToggle(prevToggle => !prevToggle)
+    props.setToggle(prevToggle => !prevToggle)
     
     if (response) {
       navigate('/')
@@ -53,7 +54,7 @@ export default function Form() {
             className="input"
             type='text'
             value={description}
-            placeholder="What's your Agent's purpose?"
+            placeholder="What do they do?"
             onChange={(e)=>setDescription(e.target.value)}
           />
           <h3>Show us what they look like!</h3>

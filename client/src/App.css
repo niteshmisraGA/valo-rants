@@ -7,10 +7,6 @@
   border: 10px;
 }
 
-.fuck {
-  color: hotpink;
-}
-
 .thumbnail {
   max-width: 150px;
   max-height: px;
@@ -20,6 +16,7 @@
   display: grid;
   width: 100vw;
   height: 100vh;
+  overflow-y: scroll;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(auto, 3);
   grid-template-areas:
@@ -36,12 +33,19 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: "pic deets";
+  grid-area: main;
 }
 .pic {
   grid-area: pic;
+  justify-self: end;
 }
 .deets {
   grid-area: deets;
+  justify-self: start;
+  max-width: 50px;
+}
+
+.details-page {
 }
 
 .header {
@@ -65,15 +69,15 @@
 }
 
 .cat-div {
-  border: 10px solid hotpink;
-  padding: 5px;
+  border: 1px solid honeydew;
+  padding: 2.5px;
   /* max-width: 75px;
   max-height: 65px; */
   border-radius: 35%;
   background: #73ad21;
   padding: 20px;
-  width: 200px;
-  height: 150px;
+  width: 275px;
+  height: 155px;
 }
 .duel {
   grid-area: duel;
@@ -131,12 +135,15 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.thumbName {
+  font-size: 15;
+  text-decoration: none;
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
   }
 }
 
@@ -146,4 +153,9 @@
   width: 50px;
   height: 50px;
   background-color: hotpink;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
 }

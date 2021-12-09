@@ -19,10 +19,10 @@ export default function Category({category}) {
     <div className="agent-container">
       {
         duelists.map((duel) => (
-          <Link to={`/character/${duel.id}`}>
+          <Link className="thumbName" to={`/character/${duel.id}`}>
             <div className="agent">
+              <h4 className="thumbName">{duel.fields.agent}</h4>
               <img className="thumbnail" src={duel.fields.agentThumbnail} alt="agent"/>
-              <h1>{duel.fields.agent}</h1>
             </div>
             </Link>
         ))

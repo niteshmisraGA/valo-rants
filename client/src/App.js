@@ -7,6 +7,7 @@ import Home from './components/Home'
 import Nav from './components/Nav'
 import Agent from './components/Agent';
 import Form from './components/Form';
+import Footer from './components/Footer';
 // import Categorysen from './components/Categorysen';
 
 
@@ -30,6 +31,7 @@ function App() {
 
 
   return (
+    <div>
     <div className="App page-layout">
       <header className="header">
         <h1>VALO-Rants</h1>
@@ -62,11 +64,13 @@ function App() {
           path="/categories/:sentinel"
           element={<Categorysen category={category} />}
         /> */}
-      </Routes>
+        </Routes>
       
-
-
-    </div>
+      </div>
+      <div>
+        <footer className='footer'> <Footer /></footer>
+      </div>
+      </div>
   );
 }
 
