@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { getAgent, getAbilities } from "../services";
 
 export default function Agent() {
@@ -45,6 +45,7 @@ export default function Agent() {
     <div className="agent-details-page">
       <img className="details-picture pic" src={agent.fields.agentPicture} alt="agent" />
       <div className="details-page deets">
+        <div className="deets-div">
         <h3>Description</h3>
         <p>{agent.fields.description}</p>
         <h3>Abilities</h3>
@@ -52,7 +53,8 @@ export default function Agent() {
           {abilityArr.map((ability) => (
             <li>{ability}</li>
         ))}
-        </ul>
+          </ul>
+          </div>
         {/* <p>{agent.fields.agentAbilities}</p> */}
       </div>    
     </div>

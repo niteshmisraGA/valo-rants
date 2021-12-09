@@ -42,7 +42,14 @@
 .deets {
   grid-area: deets;
   justify-self: start;
-  max-width: 50px;
+  /* max-width: 100px; */
+}
+
+.deets-div {
+  max-width: 150px;
+  background-color: #0003;
+  border-radius: 15%;
+  border: solid 10px #16161a;
 }
 
 .details-page {
@@ -110,8 +117,9 @@
 
 .agent {
   display: grid;
-  border: 10px solid hotpink;
-  background-color: lime;
+  border: 10px solid whitesmoke;
+  background-color: #16161a;
+  border-radius: 5%;
 }
 
 @media (prefers-reduced-motion: no-preference) {

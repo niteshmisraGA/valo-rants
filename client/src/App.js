@@ -1,7 +1,7 @@
 import './App.css';
 import { getAllAgents } from './services/index.js'
 import { useEffect, useState } from 'react'
-import { Link, Routes, Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import Category from './components/Category'
 import Home from './components/Home'
 import Nav from './components/Nav'
