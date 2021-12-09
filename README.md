@@ -66,44 +66,47 @@ My site will host information on every character (agent) from the game VALORANT.
 
 - Build external API using Airtable
 - Render data on page using React components
-- Allow user to cycle thru agents info and highlight clips
+- Allow user to cycle thru agents info
 - Implement heavy styling with CSS flexbox OR Grid
-- Allow users to edit agent info page
 - Add form to allow users to add an agent
 
 #### PostMVP
 
+- Add highlight clips as embedded YT vids
+- Allow users to edit agent info page
 - Implement search feature that allows user to directly navigate to an agent.
 - Allow users ability to post and embed highlight videos.
 - Add a comment section to highlights forum.
+- SIGNIFICANTLY improve styling with CSS library
 
 ## Project Schedule
 
 | Day      | Deliverable                                        | Status     |
 | -------- | -------------------------------------------------- | ---------- |
 | Dec. 1   | Prompt / Wireframes / Priority Matrix / Timeframes | Complete   |
-| Dec. 2   | Project Approval                                   | Incomplete |
-| Dec. 2-4 | Core Application Structure (HTML, CSS, etc.)       | Incomplete |
-| Dec. 4-5 | Pseudocode / actual code                           | Incomplete |
-| Dec. 5-6 | Initial Clickable Model, Styling                   | Incomplete |
-| Dec. 7-8 | MVP                                                | Incomplete |
+| Dec. 2   | Project Approval                                   | Complete   |
+| Dec. 2-4 | Core Application Structure (HTML, CSS, etc.)       | Complete   |
+| Dec. 4-5 | Pseudocode / actual code                           | Complete   |
+| Dec. 5-6 | Initial Clickable Model, Styling                   | Complete   |
+| Dec. 7-8 | MVP                                                | Complete   |
 | Dec. 9   | Presentations                                      | Incomplete |
 
 ## Timeframes
 
 | Component             | Priority | Estimated Time | Time Invested | Actual Time |
 | --------------------- | :------: | :------------: | :-----------: | :---------: |
-| Pseudocode            |    H     |      5hrs      |       0       |      0      |
-| Building Airtable API |    H     |      3hrs      |      .5       |      0      |
-| Category 1 Build      |    H     |      3hrs      |       0       |      0      |
-| Category 2 Build      |    H     |      3hrs      |       0       |      0      |
-| Category 3 Build      |    H     |      3hrs      |       0       |      0      |
-| Category 4 Build      |    H     |      3hrs      |       0       |      0      |
-| Agents Lists          |    H     |      4hrs      |       0       |      0      |
-| Navigation            |    H     |     1.5hrs     |       0       |      0      |
-| CSS Styling           |    H     |      5hrs      |       0       |      0      |
+| Pseudocode            |    H     |      5hrs      |     3hrs      |    3hrs     |
+| Building Airtable API |    H     |      3hrs      |    3.5hrs     |   3.5hrs    |
+| Category 1 Build      |    H     |      3hrs      |     3hrs      |    3hrs     |
+| Category 2 Build      |    H     |      3hrs      |     3hrs      |    3hrs     |
+| Category 3 Build      |    H     |      3hrs      |     3hrs      |    3hrs     |
+| Category 4 Build      |    H     |      3hrs      |     3hrs      |    3hrs     |
+| Form                  |    H     |      3hrs      |     5hrs      |    5hrs     |
+| Agents Lists          |    H     |      4hrs      |     5hrs      |    5hrs     |
+| Navigation            |    H     |     1.5hrs     |     3hrs      |    3hrs     |
+| CSS Styling           |    H     |      5hrs      |     6hrs      |    6hrs     |
 | Post-MVP              |    H     |      3hrs      |       0       |      0      |
-| Total                 |    H     |    33.5hrs     |     .5hrs     |    0hrs     |
+| Total                 |    H     |    33.5hrs     |    37.5hrs    |   37.5hrs   |
 
 ## SWOT Analysis
 
